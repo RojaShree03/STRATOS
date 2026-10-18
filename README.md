@@ -120,7 +120,29 @@ After updating environment variables, redeploy the application for the changes t
 
 | Variable | Purpose |
 |---|---|
-| `VITE_OPENWEATHER_API_KEY` | OpenWeather API key, if
+| `VITE_OPENWEATHER_API_KEY` | OpenWeather API key, if this is the variable configured in the weather service |
+
+Ensure `.env` is excluded from version control. Do not store real credentials in the repository or in public documentation.
+
+## 🧪 Available Commands
+
+| Command | Description |
+|---|---|
+| `npm install` | Install project dependencies |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create the production build |
+| `npm run preview` | Preview the production build |
+
+## 🤝 Contributing
+
+Contributions and suggestions are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Implement and test your changes.
+4. Commit and push your changes.
+5. Submit a pull request.
+
 
 ##  Disclaimer
 
